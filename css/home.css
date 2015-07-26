@@ -1,0 +1,32 @@
+﻿.main.navbar { border-radius: 0px; }
+
+.main.navbar.navbar-inverse {
+	font-size: 18px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	/*min-width: 1072px;*/
+}
+
+.main.navbar .navbar-inner {
+	border: none;
+	padding-bottom: 5px;
+	padding-top: 8px;
+}
+
+.main.navbar a.navbar-brand {
+	font-family: 'Francois One', sans-serif;
+	font-size: 36px;
+	letter-spacing: 3px;
+	padding-bottom: 5px;
+}
+
+.main.navbar ul.nav { float: right; }
+
+.main.navbar ul.nav a { color: white; }
+
+.main.navbar .header-bottom {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%); /* W3C */
+	background-color: black;
+	height: 3px;
+}
