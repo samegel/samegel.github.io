@@ -4,13 +4,44 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,900);
 html {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
+}
+/* Material card styles */
+.profileCard {
+    margin-bottom: 25px;
+}
+.profileCard1 {
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  margin-top: 30px;
+  float: left;
+  background-color: #FFF;
+}
+.profileCard1 .pDes > p {
+  color: #717171;
+  font-size: 16px;
+  text-align: justify;
+}
+.profileCard1 .pImg {
+  background-color: #EC4141;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: -60px;
+}
+.profileCard1 ul {
+    padding-left:14px;
 }
 article,
 aside,
@@ -54,7 +85,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 dfn {
   font-style: italic;
@@ -1082,7 +1113,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
