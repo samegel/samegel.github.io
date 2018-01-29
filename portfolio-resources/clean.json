@@ -1,4 +1,4 @@
-{
+[{
   "comments":[
     {
       "text":"in page.html",
@@ -32,7 +32,7 @@
     }
   ],
   "topic_path":"path/to-webpage/page.html"
-}
+},
 {
   "comments":[
     {
@@ -42,7 +42,7 @@
     }
   ],
   "topic_path":"about/about.html"
-}
+},
 {
   "comments":[
     {
@@ -52,7 +52,7 @@
     }
   ],
   "topic_path":"another/path/for-example/example.html"
-}
+},
 {
   "comments":[
     {
@@ -67,7 +67,7 @@
     }
   ],
   "topic_path":"not/useful/path/webpage.html"
-}
+},
 {
   "comments":[
     {
@@ -83,3 +83,4 @@
   ],
   "topic_path":"path/to/thing.html"
 }
+]
